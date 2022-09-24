@@ -16,6 +16,9 @@
 		68AB8DC828DF38D900128142 /* UnitTest_PraticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DC728DF38D900128142 /* UnitTest_PraticeTests.swift */; };
 		68AB8DD228DF38D900128142 /* UnitTest_PraticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DD128DF38D900128142 /* UnitTest_PraticeUITests.swift */; };
 		68AB8DD428DF38D900128142 /* UnitTest_PraticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DD328DF38D900128142 /* UnitTest_PraticeUITestsLaunchTests.swift */; };
+		68AB8DE128DF394E00128142 /* Evan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DE028DF394E00128142 /* Evan.swift */; };
+		68AB8DE528DF3A5200128142 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DE428DF3A5200128142 /* LoginValidator.swift */; };
+		68AB8DE728DF3B5B00128142 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DE628DF3B5B00128142 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		68AB8DCD28DF38D900128142 /* UnitTest_PraticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTest_PraticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AB8DD128DF38D900128142 /* UnitTest_PraticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_PraticeUITests.swift; sourceTree = "<group>"; };
 		68AB8DD328DF38D900128142 /* UnitTest_PraticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_PraticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68AB8DE028DF394E00128142 /* Evan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evan.swift; sourceTree = "<group>"; };
+		68AB8DE428DF3A5200128142 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
+		68AB8DE628DF3B5B00128142 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		68AB8DAF28DF38D800128142 /* UnitTest_Pratice */ = {
 			isa = PBXGroup;
 			children = (
+				68AB8DE628DF3B5B00128142 /* User.swift */,
+				68AB8DE428DF3A5200128142 /* LoginValidator.swift */,
+				68AB8DE028DF394E00128142 /* Evan.swift */,
 				68AB8DB028DF38D800128142 /* AppDelegate.swift */,
 				68AB8DB228DF38D800128142 /* SceneDelegate.swift */,
 				68AB8DB428DF38D800128142 /* ViewController.swift */,
@@ -260,7 +269,10 @@
 			files = (
 				68AB8DB528DF38D800128142 /* ViewController.swift in Sources */,
 				68AB8DB128DF38D800128142 /* AppDelegate.swift in Sources */,
+				68AB8DE728DF3B5B00128142 /* User.swift in Sources */,
 				68AB8DB328DF38D800128142 /* SceneDelegate.swift in Sources */,
+				68AB8DE128DF394E00128142 /* Evan.swift in Sources */,
+				68AB8DE528DF3A5200128142 /* LoginValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
