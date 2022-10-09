@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68543A5828F2E29100F140D4 /* Netowkring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68543A5728F2E29100F140D4 /* Netowkring.swift */; };
+		68543A5A28F2E4A700F140D4 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68543A5928F2E4A700F140D4 /* NetworkingManager.swift */; };
 		68AB8DB128DF38D800128142 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DB028DF38D800128142 /* AppDelegate.swift */; };
 		68AB8DB328DF38D800128142 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DB228DF38D800128142 /* SceneDelegate.swift */; };
 		68AB8DB528DF38D800128142 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68AB8DB428DF38D800128142 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68543A5728F2E29100F140D4 /* Netowkring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Netowkring.swift; sourceTree = "<group>"; };
+		68543A5928F2E4A700F140D4 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		68AB8DAD28DF38D800128142 /* UnitTest_Pratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest_Pratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AB8DB028DF38D800128142 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68AB8DB228DF38D800128142 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68543A5628F2E21D00F140D4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				68AB8DE028DF394E00128142 /* Evan.swift */,
+				68AB8DE628DF3B5B00128142 /* User.swift */,
+				68543A5728F2E29100F140D4 /* Netowkring.swift */,
+				68543A5928F2E4A700F140D4 /* NetworkingManager.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		68AB8DA428DF38D800128142 = {
 			isa = PBXGroup;
 			children = (
@@ -105,9 +120,8 @@
 		68AB8DAF28DF38D800128142 /* UnitTest_Pratice */ = {
 			isa = PBXGroup;
 			children = (
-				68AB8DE628DF3B5B00128142 /* User.swift */,
+				68543A5628F2E21D00F140D4 /* Entities */,
 				68AB8DE428DF3A5200128142 /* LoginValidator.swift */,
-				68AB8DE028DF394E00128142 /* Evan.swift */,
 				68AB8DB028DF38D800128142 /* AppDelegate.swift */,
 				68AB8DB228DF38D800128142 /* SceneDelegate.swift */,
 				68AB8DB428DF38D800128142 /* ViewController.swift */,
@@ -270,7 +284,9 @@
 				68AB8DB528DF38D800128142 /* ViewController.swift in Sources */,
 				68AB8DB128DF38D800128142 /* AppDelegate.swift in Sources */,
 				68AB8DE728DF3B5B00128142 /* User.swift in Sources */,
+				68543A5828F2E29100F140D4 /* Netowkring.swift in Sources */,
 				68AB8DB328DF38D800128142 /* SceneDelegate.swift in Sources */,
+				68543A5A28F2E4A700F140D4 /* NetworkingManager.swift in Sources */,
 				68AB8DE128DF394E00128142 /* Evan.swift in Sources */,
 				68AB8DE528DF3A5200128142 /* LoginValidator.swift in Sources */,
 			);
